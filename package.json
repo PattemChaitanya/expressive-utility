@@ -1,0 +1,77 @@
+{
+  "name": "expressive-utility",
+  "version": "1.0.0",
+  "description": "A collection of necessary React utility hooks",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "build:watch": "rollup -c --watch",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/react-utils.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "utils",
+    "typescript",
+    "library",
+    "hooks"
+  ],
+  "author": "Chaitanya Pattem <pattemchaitanya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/react-utils/issues"
+  },
+  "homepage": "https://github.com/your-username/react-utils#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "sideEffects": false,
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/your-username"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^30.0.0-beta.3",
+    "prettier": "^3.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-router-dom": "^7.6.2",
+    "tslib": "^2.8.1"
+  }
+}
