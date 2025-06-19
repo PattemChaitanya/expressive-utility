@@ -1,0 +1,46 @@
+useDebounce – debounce a fast-changing value (e.g., input)
+useThrottle – throttle updates (e.g., scroll, resize)
+useClickOutside – detect clicks outside a given ref
+useHover – detect hover state of an element
+useToggle – simple boolean toggle
+useFocusTrap – trap focus inside modal/dialog
+useKeyPress – detect keypresses globally
+useFocusVisible – detect keyboard vs mouse focus
+useResizeObserver – watch for element size changes
+useWindowSize – track window dimensions
+useMediaQuery – check if media query matches
+useIsMobile – determine mobile screen size
+useScrollPosition – track scroll positions
+useMeasure – get bounding box of an element
+usePrevious – track the previous value of a variable
+useReducedMotion – respect system-level animation settings
+useAnimationDelay – delay animation state
+useLocalStorage – sync state with localStorage
+useSessionStorage – sync state with sessionStorage
+useCookie – manage cookies
+useFetch – fetch wrapper (with loading/error states)
+useAsync – handle promises with loading/error/success
+useQueryParam – manage URL query strings as state
+useDebouncedValue – separate hook for debounced values
+useEncodeURLString – convert object or string to encoded query string
+useDecodeURLString – parse query string back to object
+usePathParams – extract dynamic segments from route (optional)
+useNetwork – detect network connection status
+useScript – load external scripts
+useIntersectionObserver – detect when an element enters/leaves viewport
+useIdle – detect when user is idle
+useMutation – handle state mutations
+useIsomorphicLayoutEffect – use layout effect in ReactDOM.createPortal
+useTitle – update document title
+useClipboard – copy to clipboard
+useTimer – manage timers
+useFullscreen – toggle fullscreen mode
+useDeviceOS – detect device OS
+--------------------------------------------- till here done in chatgpt for reference
+useOrientation – detect device orientation
+useMousePosition – track mouse position
+useTheme – Access theme variables (colors, spacing) from context.
+useDisclosure – Open/close state logic for modals, popovers, etc.
+useOutsideScrollLock – Prevent scroll when modals or overlays are open.
+useElementScroll – Tracks an element’s scroll position + direction.
+useHistory – Access browser history.
